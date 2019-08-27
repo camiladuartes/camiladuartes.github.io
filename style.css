@@ -90,6 +90,7 @@ body {
     margin-top: -20px;
     padding-bottom: 55px;
     margin-bottom: 20px;
+    padding-right: 12px;
 }
 
 .education_itens p h2 {
@@ -114,7 +115,7 @@ footer {
 	.education_itens { 
 		width: 80%;
 		float: none;
-        padding-bottom: 35px;
+        	padding-bottom: 35px;
 	}
 }
 
