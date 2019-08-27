@@ -1,0 +1,123 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.initial_part_img{
+    background: url(main_picture.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 625px;
+    position: relative; /*To use top and left*/
+    margin: -15px;
+    padding-bottom: 34px;
+    width: 100%;
+    padding-right: 14px;
+}
+
+.initial_part { 
+    color: #FFFAFA;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.initial_part h1 { 
+    transform: translate(15%, 0%);
+}
+
+.initial_part_img .initial_part hr{ 
+    color: #FFFAFA;
+    width: 260px;
+}
+
+.about_me { 
+    margin-left: 100px;
+    width: 50%;
+}
+
+.about_me h1 {
+    margin-top: 60px;
+    color: #0f1031;
+}
+
+.about_me p {
+    font-weight: normal !important;
+    color: #777777;
+}
+
+.personal_data span{
+    color: #0f1031 !important;
+    font-weight: bold !important;
+}
+
+.about_me a:link {
+  color: #0f1031;
+}
+
+.about_me a:visited {
+  color: #0f1031;
+}
+
+.education_itens a:link {
+    color: white;
+    font-size: 14px;
+}
+
+.education_itens a:visited {
+    color: white;
+    font-size: 14px;
+}
+
+.education {
+    background-color: #343a40;
+    color: white;
+    padding-top: 46px; 42
+    margin: -15px;
+    margin-top: 60px;
+    float: right;
+    padding-left: 100px;
+}
+
+.education_itens {
+    background-color: #343a40;
+    float: left;
+    width: 30%;
+    margin-top: -20px;
+    padding-bottom: 55px;
+    margin-bottom: 20px;
+}
+
+.education_itens p h2 {
+    text-align: center;
+}
+
+.education_itens span {
+    font-size: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #334b5c;
+    height: 60px;
+    float: right;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 960px) { /*1124*/
+	.education_itens { 
+		width: 80%;
+		float: none;
+        padding-bottom: 35px;
+	}
+}
+
+/*#3c596b*/
+/*#334b5b */
+/*#334b5c*/
