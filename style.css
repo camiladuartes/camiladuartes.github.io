@@ -119,6 +119,15 @@ footer {
 	}
 }
 
+@media screen and (min-width: 960px) and (max-width: 970px) {
+   #ed_2 { 
+      	margin-left: 20px;
+	}
+    #ed_3 {
+        margin-left:-20px;
+    }
+}
+
 /*#3c596b*/
 /*#334b5b */
 /*#334b5c*/
